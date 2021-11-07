@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="App">
       <h1>React Selectを試してみた</h1>
-      <div style={{width: '300px', margin: '0 auto'}}>
+      <div style={{width: '300px', margin: '0 auto', textAlign: 'left'}}>
         <Select options={options} placeholder='選択してください' />
       </div>
     </div>
